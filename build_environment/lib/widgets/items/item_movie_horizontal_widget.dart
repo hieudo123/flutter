@@ -27,7 +27,7 @@ class ItemMovieHorizontalWidget extends StatelessWidget {
           Image(
             image: NetworkImage(AppConstants.kImageUrl + movieModel.posterPath),
             fit: BoxFit.cover,
-            height: 196.0,
+            height: 180.0,
           ),
           SizedBox(
             height: 10.0,

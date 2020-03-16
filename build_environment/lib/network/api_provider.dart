@@ -9,14 +9,14 @@ class ApiProvider {
   Future<MovieResponse> getTopMovies(int page) async {
     String url = 'movie/top_rated?language=en-US&api_key=$_apiKey&page=$page';
     final responseJson = await _apiController.request(url, HttpMethod.get);
-    print('getTopMovies: ${responseJson}');
+    print('getTopMovies: $responseJson');
     return MovieResponse.fromJson(responseJson);
   }
 
   Future<MovieResponse> getPopular(int page) async {
     String url = 'movie/popular?language=en-US&api_key=$_apiKey&page=$page';
     final responseJson = await _apiController.request(url, HttpMethod.get);
-    print('getPopular: ${responseJson}');
+    print('getPopular: $responseJson');
     return MovieResponse.fromJson(responseJson);
   }
 
