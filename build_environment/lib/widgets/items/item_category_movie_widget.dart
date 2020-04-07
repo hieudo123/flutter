@@ -39,7 +39,7 @@ class ItemCategoryMovieWidget extends StatelessWidget {
             height: 18.0,
           ),
           SizedBox(
-            height: 250.0,
+            height: 256.0,
             child: ListView.builder(
               shrinkWrap: true,
               itemCount: mListMovie.length,

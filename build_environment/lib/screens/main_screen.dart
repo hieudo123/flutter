@@ -6,14 +6,14 @@ import 'package:flutter/material.dart';
 
 import '../configs/flavor_config.dart';
 
-class MainScreen extends StatefulWidget {
+class MyApp extends StatefulWidget {
 
   @override
-  _MainScreenState createState() => _MainScreenState();
+  _MyAppState createState() => _MyAppState();
 }
 
 
-class _MainScreenState extends State<MainScreen> {
+class _MyAppState extends State<MyApp> {
 
   @override
   void initState() {

@@ -20,7 +20,6 @@ class ItemLargeMovieWidget extends StatelessWidget {
         ),
         borderRadius: BorderRadius.circular(15.0),
       ),
-
     );
   }
 }
