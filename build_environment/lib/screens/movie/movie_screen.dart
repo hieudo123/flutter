@@ -55,7 +55,7 @@ class _MovieScreenState extends State<MovieScreen> {
                   return Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: <Widget>[
-                      _buildSliderWidget(state.categories[AppStrings.kNowPlaying]),
+//                      _buildSliderWidget(state.categories[AppStrings.kNowPlaying]),
                       SizedBox(
                         height: 24.0,
                       ),
