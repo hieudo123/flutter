@@ -30,7 +30,7 @@ class FlavorConfig extends InheritedWidget {
   static bool isQA() => _instance.appConfigType == FlavorType.QA;
 
   static FlavorConfig of(BuildContext context) {
-    return context.inheritFromWidgetOfExactType(FlavorConfig);
+    return context.dependOnInheritedWidgetOfExactType<FlavorConfig>();
   }
 
   @override

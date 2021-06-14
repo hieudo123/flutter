@@ -1,7 +1,7 @@
 import 'package:build_environment/common/app_colors.dart';
 import 'package:build_environment/models/movie/movie_res.dart';
 import 'package:build_environment/network/api_provider.dart';
-import 'package:build_environment/screens/home_screen.dart';
+import 'file:///E:/SomeGit/MyExample/flutter/build_environment/lib/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../configs/flavor_config.dart';

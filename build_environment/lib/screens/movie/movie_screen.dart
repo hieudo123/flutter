@@ -22,14 +22,8 @@ class MovieScreen extends StatefulWidget {
 }
 
 class _MovieScreenState extends State<MovieScreen> {
-  CategoriesBloc _categoriesBloc;
   int selectedItem = 0;
 
-  @override
-  void initState() {
-    _categoriesBloc = BlocProvider.of<CategoriesBloc>(context);
-    super.initState();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -55,7 +49,7 @@ class _MovieScreenState extends State<MovieScreen> {
                   return Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: <Widget>[
-//                      _buildSliderWidget(state.categories[AppStrings.kNowPlaying]),
+                      _buildSliderWidget(state.categories[AppStrings.kNowPlaying]),
                       SizedBox(
                         height: 24.0,
                       ),
